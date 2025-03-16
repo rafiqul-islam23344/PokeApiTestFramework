@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Usersbasicjavajavabasicm1/PokeAPI/src/test/java/web_service">
+        <classes>
+            <class name="web_service.BerryFirmnesses">
+                <methods>
+                    <include name="testStatusCode"/>
+                    <include name="testBerryFirmnessName"/>
+                    <include name="testBerriesList"/>
+                    <include name="testNamesAndLanguage"/>
+                </methods>
+            </class>
+            <class name="web_service.BerryFlavorTest">
+                <methods>
+                    <include name="testStatusCode"/>
+                    <include name="testBerryFlavorDetails"/>
+                    <include name="testBerriesList"/>
+                    <include name="testContestType"/>
+                    <include name="testNamesAndLanguage"/>
+                </methods>
+            </class>
+            <class name="web_service.EvolutionChainResponse">
+                <methods>
+                    <include name="test01"/>
+                    <include name="testStatusCodeberryfirmness"/>
+                    <include name="testBerryName"/>
+                    <include name="testResponseTime"/>
+                    <include name="testBerryDetails"/>
+                    <include name="testBerryFirmnessURL"/>
+                </methods>
+            </class>
+            <class name="web_service.testGetRequestAbility">
+                <methods>
+                    <include name="main"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
